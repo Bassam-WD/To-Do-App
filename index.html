@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do App</title>
+    <link rel="stylesheet" href="style.css" >
+    <link rel="stylesheet" href="all.min.css">
+    <!-- Font Awesome CDN -->
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  integrity="sha512-..."
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+
+</head>
+<body>
+    <div class="container">
+        <h1>To-Do App</h1>
+        <header>
+            <div class="titel">
+                
+                <p style="font-size: 20px; font-weight: bold;">Keep it up!</p>
+                <div id="progressBar">
+                    <div id="progress"></div>
+                </div>
+            </div>
+            <div class="stats-number">
+                <p id="numbers">0</p>
+            </div>
+
+        </header>
+        <form action="">
+            <input type="text" placeholder="Add your task..." id="input-task" autocomplete="off" autofocus>
+            <button type="submit">+</button>
+        </form>
+        <ul class="task-list">
+            <img src="img/61760cd316b4808125ba590abd3626ae.png" style="max-width: 100%;" alt="">
+        </ul>
+        <button class="hidden">Delete All</button>
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
